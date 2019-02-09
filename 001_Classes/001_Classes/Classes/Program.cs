@@ -17,6 +17,17 @@ namespace Classes
         {
             Console.WriteLine(field);
         }
+        
+        //Создаем метод с именем Method2 который ничего не возвращает(void) и имеет один парамет типа string с имене str
+        public void Method2(string str)
+        {
+            Console.WriteLine(field);
+            
+            // Присваиваем переменной field значение параметра str
+            field = str;
+            
+            Console.WriteLine(field);
+        }
     }
 
     class Program
