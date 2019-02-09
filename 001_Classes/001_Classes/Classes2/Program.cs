@@ -10,6 +10,7 @@ namespace Classes
     {
         private string field = null;
         int number = 10;
+        bool boolean = true;
 
         public void SetField(string value) // Метод-мутатор - mutator  (setter)
         {
@@ -28,6 +29,11 @@ namespace Classes
         {
             return number;
         }
+        
+        public bool GetBool()
+        {
+            return boolean;   
+        }  
     }
 
     class Program
