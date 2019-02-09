@@ -9,8 +9,10 @@ namespace Classes
 
     class MyClass
     {
+        // В теле класса создаем переменную типа string с именем field
         public string field;
 
+        //Создаем метод с именем Method который ничего не возвращает(void)
         public void Method()
         {
             Console.WriteLine(field);
