@@ -14,7 +14,10 @@ namespace Classes
         {
             field = value;
         }
-
+        
+        //Создаем метод с именем GetField который возвращает значение типа string (!требуется обязательно вернуть string через return).
+        //Не имеет параметров.
+        
         public string GetField()           // Метод-аксессор -  accessor  (getter)
         {
             return field;
