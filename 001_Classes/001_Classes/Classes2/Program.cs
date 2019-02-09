@@ -40,6 +40,9 @@ namespace Classes
     {
         static void Main()
         {
+            //MyClass instance;
+            //instance = new MyClass();
+            
             MyClass instance = new MyClass();
 
             instance.SetField("Hello world!");     // Метод-мутатор
