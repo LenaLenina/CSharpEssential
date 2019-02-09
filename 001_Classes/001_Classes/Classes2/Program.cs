@@ -9,6 +9,7 @@ namespace Classes
     class MyClass
     {
         private string field = null;
+        int number = 10;
 
         public void SetField(string value) // Метод-мутатор - mutator  (setter)
         {
@@ -21,6 +22,11 @@ namespace Classes
         public string GetField()           // Метод-аксессор -  accessor  (getter)
         {
             return field;
+        }
+        
+        public int GetNumber()
+        {
+            return number;
         }
     }
 
